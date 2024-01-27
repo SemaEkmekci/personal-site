@@ -1,23 +1,23 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React, { useState, useEffect } from 'react';
-import Profile from '../../assets/profile.jpg';
+import React, { useEffect } from 'react';
 import DarkModeToggle from '../darkModeToggle/DarkModeToggle';
+import Profile from '../../assets/profile.jpg';
 import "./sidebar.css";
 
-const Sidebar = () => {;
-  const [sidebarClosed, setSidebarClosed] = useState(false);
+const Sidebar = ({isSidebar, setisSidebar}) => {;
+
 
   const toggleSidebar = () => {
-    setSidebarClosed(!sidebarClosed);
+    setisSidebar(!isSidebar);
   };
 
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth < 500) {
-        setSidebarClosed(true);
+        setisSidebar(true);
       }else{
-        setSidebarClosed(false);
+        setisSidebar(false);
       }
     };
 
@@ -28,18 +28,16 @@ const Sidebar = () => {;
     };
   }, []);
  
-
   return (
     <div>
-        <div className={`sidebar ${sidebarClosed ? 'close' : ''}`}>
-        
+        <div className={`sidebar ${isSidebar ? 'close' : ''}`}>      
           <div className="logo-details">
             <i className='bx bx-code' ></i>
             <span className="logo_name">SNE</span>
           </div>
           <ul className="nav-links">
             <li>
-              <a href="index.html">
+              <a href="">
                 <i className="bx bx-grid-alt"></i>
                 <span className="link_name">Anasayfa</span>
               </a>

@@ -1,0 +1,10 @@
+.sidebarClose{
+    margin-left: 150px;
+    transition: margin-left 0.5s ease;
+}
+
+.sidebarOpen{
+    margin-left: 350px;
+    transition: margin-left 0.5s ease;
+}
+
