@@ -15,7 +15,7 @@ const App = () => {
     <Router>
       <div>
         <Routes>
-          <Route path="/" element={<HomePage isSidebar={isSidebar} setisSidebar={setisSidebar}/>} />
+          <Route path="./" element={<HomePage isSidebar={isSidebar} setisSidebar={setisSidebar}/>} />
         </Routes>
       </div>
     </Router> 
