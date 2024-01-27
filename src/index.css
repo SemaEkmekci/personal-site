@@ -1,0 +1,34 @@
+/*========================= Variables CSS =========================*/
+:root {
+    --primary-color: #c3d5e6;
+    --secondary-color: #1d1b31;
+    --darkBackGround: #e4e9f7;
+    --darkColorBxMenu: #11101d;
+    --letterColor: #02020a;
+    --solidColor: #11101d;
+  }
+  .dark-theme {
+    --primary-color: #1d1b31;
+    --secondary-color: #fff;
+    --darkBackGround: #2d3034;
+    --darkColorBxMenu: #e4e9f7;
+    --letterColor: #e4e9f7;
+    --solidColor: #4b87bf;
+}
+/*========================= Base =========================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+body {
+    overflow: -moz-scrollbars-vertical;
+    overflow-x: hidden;
+    overflow: -moz-scrollbars-vertical;
+    background-color: #e4e9f7;
+    background-color: var(--darkBackGround);
+    transition: all 0.5s ease;
+  }
