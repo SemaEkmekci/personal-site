@@ -32,3 +32,11 @@ body {
     background-color: var(--darkBackGround);
     transition: all 0.5s ease;
   }
+
+  
+p,
+.text-uppercase,
+.text-center {
+  color: var(--secondary-color);
+}
+  

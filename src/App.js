@@ -2,6 +2,7 @@
 import {useState} from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Sidebar from './components/sidebar/Sidebar.jsx'
+import Footer from './layout/footer/footer.jsx'
 import HomePage from './pages/homePage/HomePage.jsx'
 
 
@@ -15,10 +16,12 @@ const App = () => {
     <Router>
       <div>
         <Routes>
-          <Route path="/" element={<HomePage isSidebar={isSidebar} setisSidebar={setisSidebar}/>} />
+          <Route path="/personal-site" element={<HomePage/>} />
         </Routes>
       </div>
     </Router> 
+    <Footer/>
+
     </>
   )
 }

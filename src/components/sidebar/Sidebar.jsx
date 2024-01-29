@@ -14,7 +14,7 @@ const Sidebar = ({isSidebar, setisSidebar}) => {;
 
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth < 500) {
+      if (window.innerWidth < 900) {
         setisSidebar(true);
       }else{
         setisSidebar(false);
@@ -71,7 +71,7 @@ const Sidebar = ({isSidebar, setisSidebar}) => {;
             </li>
             <li>
               <div className="iocn-link">
-                <a href="iletisim.html">
+                <a href="#">
                   <i className='bx bxs-contact' ></i>
                   <span className="link_name">İletişim</span>
                 </a>
