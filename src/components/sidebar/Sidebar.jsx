@@ -57,18 +57,11 @@ const Sidebar = ({isSidebar, setisSidebar}) => {;
               <div className="iocn-link">
                 <a href="#">
                   <i className="bx bx-book-alt"></i>
-                  <span className="link_name">Haber Köşesi</span>
-                </a>
-              </div>
-            </li>
-            <li>
-              <div className="iocn-link">
-                <a href="#">
-                  <i className="bx bx-plug"></i>
                   <span className="link_name">Projelerim</span>
                 </a>
               </div>
             </li>
+           
             <li>
               <div className="iocn-link">
                 <a href="#">

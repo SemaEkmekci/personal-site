@@ -54,6 +54,7 @@
 .timeline-title {
     font-size: 20px;
     margin: 0.5rem 0;
+    color: var(--secondary-color);
 }
 
 .resume-container {
@@ -66,7 +67,7 @@
     background-color: var(--primary-color);
     padding: 1.875rem;
     position: relative;
-    box-shadow: 0 5px 10px rgba(75, 135, 191, 0.5);
+    box-shadow: 0 5px 10px #4b87bf;
     border-radius: 0.4rem;
 }
 

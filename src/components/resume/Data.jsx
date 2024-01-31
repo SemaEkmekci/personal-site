@@ -5,7 +5,7 @@ const Data =[
         icon: "fa-solid fa-school",
         year: "2021 - devam",
         title: "Lisans",
-        desc : "Necmettin Erbakan Üniversitesi-Bilgisayar Mühendisliği"
+        desc : "Necmettin Erbakan Üniversitesi - Bilgisayar Mühendisliği"
     },
     {
         id:2,
@@ -27,9 +27,17 @@ const Data =[
         id:4,
         category: "experience",
         icon: "fa-solid fa-briefcase",
-        year: "2023 Şubat- 2023 Ağustos",
+        year: "2023 Şubat - 2023 Ağustos",
         title: "Veri Bilimi - Web Programlama",
         desc : "Konya Kapsül Teknoloji Platformu - Gönüllü"
+    },
+    {
+        id:4,
+        category: "experience",
+        icon: "fa-solid fa-briefcase",
+        year: "2019 Eylül - 2020 Mart",
+        title: "Üroloji ve Dahiliye Servisi",
+        desc : "Konya Numune Hastanesi - Stajyer"
     }
 ]
 export default Data;
