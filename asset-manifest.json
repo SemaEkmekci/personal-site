@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/personal-site/static/css/main.37df6762.css",
-    "main.js": "/personal-site/static/js/main.150d1d03.js",
+    "main.css": "/personal-site/static/css/main.48753b24.css",
+    "main.js": "/personal-site/static/js/main.30a391c4.js",
+    "static/media/h-langman.png": "/personal-site/static/media/h-langman.15333d275feb0d764d53.png",
+    "static/media/fikrim-var.png": "/personal-site/static/media/fikrim-var.75df0ec4aa78f86b260e.png",
     "static/media/profile.jpg": "/personal-site/static/media/profile.37c662f24bcb68d41daf.jpg",
-    "static/media/python.webp": "/personal-site/static/media/python.35ad45e1217c37eb5e75.webp",
+    "static/media/hospital-otomation.png": "/personal-site/static/media/hospital-otomation.54ee2fc43001ebb14174.png",
     "static/media/female-programmer.svg": "/personal-site/static/media/female-programmer.267adfd949894456c4d14deb7758d55a.svg",
     "static/media/close.svg": "/personal-site/static/media/close.0f0fb6caaf346dfefcbe670debf4b964.svg",
     "index.html": "/personal-site/index.html",
-    "main.37df6762.css.map": "/personal-site/static/css/main.37df6762.css.map",
-    "main.150d1d03.js.map": "/personal-site/static/js/main.150d1d03.js.map"
+    "main.48753b24.css.map": "/personal-site/static/css/main.48753b24.css.map",
+    "main.30a391c4.js.map": "/personal-site/static/js/main.30a391c4.js.map"
   },
   "entrypoints": [
-    "static/css/main.37df6762.css",
-    "static/js/main.150d1d03.js"
+    "static/css/main.48753b24.css",
+    "static/js/main.30a391c4.js"
   ]
 }
