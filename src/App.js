@@ -16,7 +16,11 @@ const App = () => {
     <Router>
       <div>
         <Routes>
+<<<<<<< HEAD
           <Route path="/personal-site" element={<HomePage/>} />
+=======
+          <Route path="./" element={<HomePage isSidebar={isSidebar} setisSidebar={setisSidebar}/>} />
+>>>>>>> 803a53c93eff4f0dbb33ebdfde6fd8cb467a8036
         </Routes>
       </div>
     </Router> 
