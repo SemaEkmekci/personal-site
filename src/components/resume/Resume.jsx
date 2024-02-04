@@ -7,9 +7,10 @@ import Card from './Card'
 const Resume = () => {
   return (
     <section className="resume container-resume section">
-      <h2 className='section-title'>Deneyim</h2>
       <div className="resume-container grid">
+
         <div className='timeline grid'>
+        <h2 className='section-title'>Eğitim</h2> <br />
           {Data.map((val, id)=>{
             if(val.category === "education"){
               return (
@@ -20,6 +21,8 @@ const Resume = () => {
           })}
         </div>
         <div className='timeline grid'>
+        <h2 className='section-title'>Deneyim</h2> <br />
+
           {Data.map((val, index)=>{
             if(val.category === "experience"){
               return (

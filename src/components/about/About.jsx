@@ -7,7 +7,6 @@ import Avatar from "../../assets/female-programmer.svg"
 const About = () => {
   return (
     <section className="about container2 section" id='about'>
-      <h2 className="section-title">Hakkımda</h2>
       <div className="about-container grid">
         <div className='about-data'>
         <img src={Avatar} alt="" className='about-img' />
