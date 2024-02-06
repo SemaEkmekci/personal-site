@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal-site/static/css/main.394c9488.css",
-    "main.js": "/personal-site/static/js/main.0a90af22.js",
+    "main.css": "/personal-site/static/css/main.91fa1f3a.css",
+    "main.js": "/personal-site/static/js/main.182501a6.js",
     "static/media/fruit-ninja.png": "/personal-site/static/media/fruit-ninja.c591e9cf5e8868261d87.png",
     "static/media/TME-DETECT.png": "/personal-site/static/media/TME-DETECT.971a4409f25828647dfa.png",
     "static/media/teknofest-uyz.jpg": "/personal-site/static/media/teknofest-uyz.d68f29c4f38bc4097064.jpg",
@@ -14,11 +14,11 @@
     "static/media/female-programmer.svg": "/personal-site/static/media/female-programmer.267adfd949894456c4d14deb7758d55a.svg",
     "static/media/close.svg": "/personal-site/static/media/close.0f0fb6caaf346dfefcbe670debf4b964.svg",
     "index.html": "/personal-site/index.html",
-    "main.394c9488.css.map": "/personal-site/static/css/main.394c9488.css.map",
-    "main.0a90af22.js.map": "/personal-site/static/js/main.0a90af22.js.map"
+    "main.91fa1f3a.css.map": "/personal-site/static/css/main.91fa1f3a.css.map",
+    "main.182501a6.js.map": "/personal-site/static/js/main.182501a6.js.map"
   },
   "entrypoints": [
-    "static/css/main.394c9488.css",
-    "static/js/main.0a90af22.js"
+    "static/css/main.91fa1f3a.css",
+    "static/js/main.182501a6.js"
   ]
 }
