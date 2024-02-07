@@ -1,12 +1,24 @@
 /* eslint-disable array-callback-return */
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import "./resume.css"
 import Data from "./Data"
 import Card from './Card'
 
 const Resume = () => {
+
+  const [visible, setVisible] = useState(false); 
+
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setVisible(true); 
+    }, 500); 
+
+    return () => clearTimeout(timeout); 
+  }, []);
+
+
   return (
-    <section className="resume container-resume section">
+    <section className={`resume container-resume section ${visible ? 'visible' : ''}`}>
       <div className="resume-container grid">
 
         <div className='timeline grid'>

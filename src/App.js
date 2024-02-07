@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import {useState} from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Sidebar from './components/sidebar/Sidebar.jsx'
 import Footer from './layout/footer/footer.jsx'
 import HomePage from './pages/homePage/HomePage.jsx'
@@ -16,11 +17,11 @@ const App = () => {
     <Router>
       <div>
         <Routes>
-<<<<<<< HEAD
+
           <Route path="/personal-site" element={<HomePage/>} />
-=======
-          <Route path="./" element={<HomePage isSidebar={isSidebar} setisSidebar={setisSidebar}/>} />
->>>>>>> 803a53c93eff4f0dbb33ebdfde6fd8cb467a8036
+
+          {/* <Route path="./" element={<HomePage isSidebar={isSidebar} setisSidebar={setisSidebar}/>} /> */}
+
         </Routes>
       </div>
     </Router> 

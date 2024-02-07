@@ -1,6 +1,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useEffect } from 'react';
+import { Link } from 'react-scroll';
 import DarkModeToggle from '../darkModeToggle/DarkModeToggle';
 import Profile from '../../assets/profile.jpg';
 import "./sidebar.css";
@@ -37,38 +38,72 @@ const Sidebar = ({isSidebar, setisSidebar}) => {;
           </div>
           <ul className="nav-links">
             <li>
-              <a href="">
-                <i className="bx bx-grid-alt"></i>
+              <Link
+                  activeClass="active"
+                  to="main"
+                  spy={true}
+                  smooth={true}
+                  offset={-10}
+                  duration={500}
+                >
+                <div className="iocn-link">
+                  <i className="bx bx-grid-alt"></i>
                 <span className="link_name">Anasayfa</span>
-              </a>
-              <ul className="sub-menu blank">
-                <li><a className="link_name">Anasayfa</a></li>
-              </ul>
-            </li>
-            <li>
-              <div className="iocn-link">
-                <a href="#">
-                  <i className="bx bx-collection"></i>
-                  <span className="link_name">Yazılarım</span>
-                </a>
               </div>
+
+                </Link>
             </li>
             <li>
+              <Link
+                  activeClass="active"
+                  to="notes"
+                  spy={true}
+                  smooth={true}
+                  offset={-10}
+                  duration={500}
+                >
               <div className="iocn-link">
-                <a href="#">
+
+                  <i className="bx bx-collection"></i>
+                  <span className="link_name">Notlarım</span>
+              </div>
+
+                </Link>
+            </li>
+            <li>
+                   
+                <Link
+                  activeClass="active"
+                  to="portfoy"
+                  spy={true}
+                  smooth={true}
+                  offset={-10}
+                  duration={500}
+                >
+                  <div className="iocn-link">   
                   <i className="bx bx-book-alt"></i>
                   <span className="link_name">Projelerim</span>
-                </a>
-              </div>
+                  </div>
+                </Link>
+            
             </li>
            
             <li>
-              <div className="iocn-link">
-                <a href="#">
-                  <i className='bx bxs-contact' ></i>
+           
+                <Link
+                  activeClass="active"
+                  to="contact"
+                  spy={true}
+                  smooth={true}
+                  offset={-10}
+                  duration={500}
+                >
+                     <div className="iocn-link">
+                    <i className='bx bxs-contact' ></i>
                   <span className="link_name">İletişim</span>
-                </a>
-              </div>
+                  </div>
+                </Link>
+             
             </li>
             <li>
               <div className="profile-details">
@@ -76,7 +111,7 @@ const Sidebar = ({isSidebar, setisSidebar}) => {;
                     <img src={Profile} alt="profileImg" />
                 </div>
                 <div className="name-job">
-                  <div className="profile_name">Sema Nur Ekmekci</div>
+                  <div className="profile_name">Sema Nur EKMEKCİ</div>
                   <div className="job">Bilgisayar Mühendisliği Öğrencisi</div>
                 </div>
               </div>

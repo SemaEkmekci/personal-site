@@ -1,3 +1,11 @@
+.resume{
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+.resume.visible{
+    opacity: 1;
+}
+
 .section{
     margin-top: 50px;
 }

@@ -8,7 +8,7 @@ const Portfolio = () => {
     <div>
       <section className='portfolio section'>
         <h2 className='section-title'>
-          <span>
+          <span name="portfoy">
               Portföy
           </span>
         <div className="portfolio-container grid">

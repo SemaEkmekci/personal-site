@@ -2,6 +2,7 @@ import React from 'react'
 import AnimatedCursor from "react-animated-cursor"
 
 const AnimatedFollowCursor = () => {
+  
   return (
     <AnimatedCursor 
     innerSize={8}

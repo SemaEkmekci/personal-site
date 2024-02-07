@@ -54,7 +54,7 @@
   transition: all 0.4s ease;
 }
 .sidebar .nav-links li:hover {
-  background: #1d1b31;
+  background: #0c4880;
 }
 .sidebar .nav-links li .iocn-link {
   display: flex;
