@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal-site/static/css/main.4e2e0066.css",
-    "main.js": "/personal-site/static/js/main.4dafbb0a.js",
+    "main.css": "/personal-site/static/css/main.8ce206e6.css",
+    "main.js": "/personal-site/static/js/main.607396c7.js",
     "static/media/fruit-ninja.png": "/personal-site/static/media/fruit-ninja.c591e9cf5e8868261d87.png",
     "static/media/TME-DETECT.png": "/personal-site/static/media/TME-DETECT.971a4409f25828647dfa.png",
     "static/media/robot.gif": "/personal-site/static/media/robot.0ae939f89f6913e492a7.gif",
@@ -14,11 +14,11 @@
     "static/media/datatable.png": "/personal-site/static/media/datatable.dfed6f7432a6d90881dc.png",
     "static/media/female-programmer.svg": "/personal-site/static/media/female-programmer.267adfd949894456c4d14deb7758d55a.svg",
     "index.html": "/personal-site/index.html",
-    "main.4e2e0066.css.map": "/personal-site/static/css/main.4e2e0066.css.map",
-    "main.4dafbb0a.js.map": "/personal-site/static/js/main.4dafbb0a.js.map"
+    "main.8ce206e6.css.map": "/personal-site/static/css/main.8ce206e6.css.map",
+    "main.607396c7.js.map": "/personal-site/static/js/main.607396c7.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e2e0066.css",
-    "static/js/main.4dafbb0a.js"
+    "static/css/main.8ce206e6.css",
+    "static/js/main.607396c7.js"
   ]
 }
