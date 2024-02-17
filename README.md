@@ -1,2 +1,2 @@
 
-https://semaekmekci.github.io/personal-site/
+https://semaekmekci.github.io/sema-ekmekci/
