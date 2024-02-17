@@ -27,8 +27,11 @@
       margin-left: 30%;
   }
   .footer-content{
-      margin-left: 220px;
       width: 33.3%;
+      margin-left: calc(60% - 200px);
+
+
+
   }
   .text-uppercase{
       color: var(--secondary-color);
@@ -96,7 +99,17 @@
       margin-top: 10px;
   }
   
+  @media (max-width: 1200px) {
+      
+    .footer-content {
+     width: 100%;
   
+     margin-left: calc(50% - 200px);
+
+   }
+ 
+  
+ }
   @media (max-width: 510px) {
       .container{
         margin-left: 0;
@@ -105,11 +118,14 @@
       }
        .footer-content {
         width: 100%;
-        margin-left: 90px;
+        /* margin-left: 90px; */
+        margin-left: calc(60% - 200px);
+
       }
     
       .social-icons li {
         margin: 0 5px;
       }
     }
+
   

@@ -21,7 +21,7 @@ const Sidebar = ({isSidebar, setisSidebar}) => {;
         setisSidebar(false);
       }
     };
-
+    handleResize();
     window.addEventListener('resize', handleResize);
 
     return () => {
@@ -105,7 +105,9 @@ const Sidebar = ({isSidebar, setisSidebar}) => {;
                 </Link>
              
             </li>
+           
             <li>
+
               <div className="profile-details">
                 <div className="profile-content">
                     <img src={Profile} alt="profileImg" />

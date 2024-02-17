@@ -10,7 +10,7 @@ const About = () => {
   useEffect(() => {
     const timeout = setTimeout(() => {
       setVisible(true);
-    }, 300); 
+    }, 500); 
 
     return () => clearTimeout(timeout); 
   }, []);

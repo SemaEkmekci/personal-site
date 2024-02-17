@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Modal, ModalBody, ModalHeader, Row, Col } from 'reactstrap';
+import 'react-slideshow-image/dist/styles.css'
+import {Slide } from 'react-slideshow-image';
 import "./portfolio.css";
 
 const PortfolioItem = ({ img, title, details }) => {
@@ -33,14 +35,14 @@ const PortfolioItem = ({ img, title, details }) => {
 
   return (
     <div className={`portfolio-item ${visible ? 'visible' : ''}`}>
-      <img src={img} alt="resim-1" className="portfolio-img" />
+      <img src={img[0]} alt="resim-1" className="portfolio-img" />
       <div className='portfolio-hover' onClick={toggleModal}>
         <h3 className='portfolio-title'>
           {title}
         </h3>
       </div>
 
-      <Modal size="m" isOpen={modal} toggle={() => setModal(!modal)} zIndex={0} >
+      <Modal size="lg" isOpen={modal} toggle={() => setModal(!modal)} zIndex={0} >
         <ModalHeader toggle={() => setModal(!modal)}>
           {title}
         </ModalHeader>
@@ -50,7 +52,6 @@ const PortfolioItem = ({ img, title, details }) => {
               <div>
                 {details.map(({ icon, title, desc, link }, index) => (
                   <li className="modal-item" key={index}>
-                    <span className={`item-icon ${icon}`}></span>
                     <div>
                       <span className="item-title">{title}</span>
                       <span className='item-details'>{desc}</span>
@@ -60,10 +61,24 @@ const PortfolioItem = ({ img, title, details }) => {
                 ))}
               </div>
             </Col>
-            <Col lg={12}>
+            {/* <Col lg={12}>
               <img src={img} alt="" className='modal-img' />
               <br />
+            </Col> */}
+           
+            <Col lg={12}>
+                <div className='slide-container'>
+                  <Slide autoplay={true} duration={2000}>
+                  {img.map((image, index) => (
+                    <img key={index} src={image} alt={`Proje ${index}`}   className='modal-img' />
+                    ))}
+                    <br />
+                  </Slide>
+                  
+                </div>
             </Col>
+           
+
           </Row>
         </ModalBody>
       </Modal>

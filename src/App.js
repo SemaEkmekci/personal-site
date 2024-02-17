@@ -1,7 +1,6 @@
 /* eslint-disable no-unused-vars */
 import {useState} from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Sidebar from './components/sidebar/Sidebar.jsx'
 import Footer from './layout/footer/footer.jsx'
 import HomePage from './pages/homePage/HomePage.jsx'

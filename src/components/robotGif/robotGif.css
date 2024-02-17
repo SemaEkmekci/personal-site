@@ -1,0 +1,17 @@
+.robot-container {
+    position: relative; 
+    float: right;
+    margin-top: 0px; 
+    top: -30px;
+  }
+  
+
+  #robot {
+    position: relative; 
+  }
+  
+  .robot-gif {
+    width: 90px; 
+    height: auto; 
+  }
+  

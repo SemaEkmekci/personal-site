@@ -113,16 +113,16 @@
     color: white;
   }
 
-  .item-title,
-  .item-details {
-    color: var(--letterColor-color);
+  .item-title {
+    color: red;
     font-size: 18px;
   }
   
   .item-details {
     font-weight: 500;
+    font-size: 18px;
   }
-  
+
 
   .modal-img {
     height: 100%;
@@ -130,6 +130,9 @@
     object-fit: initial; 
     vertical-align: middle;
     border-radius: 3px;
+  }
+  .modal-content{
+    margin-top: 60px;
   }
 
 @media (max-width: 768px) {

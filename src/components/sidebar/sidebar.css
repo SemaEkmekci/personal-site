@@ -206,7 +206,7 @@
   
 .home-section {
   position: relative;
-  background: var(--darkBackGround);
+  /* background: var(--darkBackGround); */
   height: 70px;
   left: 260px;
   width: calc(100% - 260px);
