@@ -22,7 +22,7 @@ const About = () => {
           <div className="about-info grid">
             <p className="about-description">Merhaba, ben Sema Nur Ekmekci. Necmettin Erbakan Üniversitesi Bilgisayar Mühendisliği 3.sınıf öğrencisiyim.
             Kendimi yapay zeka alanında geliştirmeye çalışıyorum. "NEÜ Kapsül AIgenZ" takımının bir üyesiyim. Takımımızla birlikte yapay zeka alanında çalışmalar             yapıyoruz. Aynı zamanda web geliştirmeye ilgiliyim. Amatör olarak gitar            ve bağlama çalıyorum.</p>
-            <a href="https://drive.google.com/file/d/1QppO8XsjrMnviIHWXMbNG--lbDTAZy3V/view?usp=sharing" target="_blank" rel="noreferrer noopener" className="a-btn">Download CV</a>
+            <a href="https://drive.google.com/file/d/1fOF0iWq1JcPrb0IvGej4BI2rTi-r9HED/view?usp=sharing" target="_blank" rel="noreferrer noopener" className="a-btn">Download CV</a>
           </div>
 
         </div>
