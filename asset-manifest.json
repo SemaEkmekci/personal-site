@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal-site/static/css/main.3a7b1532.css",
-    "main.js": "/personal-site/static/js/main.fdd7af09.js",
+    "main.js": "/personal-site/static/js/main.0f8394fa.js",
     "static/media/aivirtualmouse.png": "/personal-site/static/media/aivirtualmouse.e4cb1333c2aafac1f332.png",
     "static/media/fruit-ninja.png": "/personal-site/static/media/fruit-ninja.c591e9cf5e8868261d87.png",
     "static/media/hospital-otomation-2.png": "/personal-site/static/media/hospital-otomation-2.cae5ad0980f6df48ca4e.png",
@@ -47,10 +47,10 @@
     "static/media/library-otomation-2.png": "/personal-site/static/media/library-otomation-2.7872f0baf09593bab289.png",
     "index.html": "/personal-site/index.html",
     "main.3a7b1532.css.map": "/personal-site/static/css/main.3a7b1532.css.map",
-    "main.fdd7af09.js.map": "/personal-site/static/js/main.fdd7af09.js.map"
+    "main.0f8394fa.js.map": "/personal-site/static/js/main.0f8394fa.js.map"
   },
   "entrypoints": [
     "static/css/main.3a7b1532.css",
-    "static/js/main.fdd7af09.js"
+    "static/js/main.0f8394fa.js"
   ]
 }
