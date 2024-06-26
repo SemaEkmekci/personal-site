@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal-site/static/css/main.3a7b1532.css",
-    "main.js": "/personal-site/static/js/main.0f8394fa.js",
+    "main.js": "/personal-site/static/js/main.01102d7a.js",
     "static/media/aivirtualmouse.png": "/personal-site/static/media/aivirtualmouse.e4cb1333c2aafac1f332.png",
     "static/media/fruit-ninja.png": "/personal-site/static/media/fruit-ninja.c591e9cf5e8868261d87.png",
     "static/media/hospital-otomation-2.png": "/personal-site/static/media/hospital-otomation-2.cae5ad0980f6df48ca4e.png",
@@ -14,10 +14,13 @@
     "static/media/h-langman-3.png": "/personal-site/static/media/h-langman-3.68fd4d03c8766707a9ea.png",
     "static/media/h-langman.png": "/personal-site/static/media/h-langman.15333d275feb0d764d53.png",
     "static/media/h-langman-4.png": "/personal-site/static/media/h-langman-4.936ea09731f9ca907155.png",
+    "static/media/siy2.png": "/personal-site/static/media/siy2.cccf70568f28eceaf356.png",
+    "static/media/siy3.png": "/personal-site/static/media/siy3.d5ac751f6a38848968d5.png",
     "static/media/fikrim-var-2.png": "/personal-site/static/media/fikrim-var-2.8ec9277c01aeb9932903.png",
     "static/media/isyeri_oe.png": "/personal-site/static/media/isyeri_oe.31e31433648378a2271b.png",
     "static/media/fikrim-var-7.png": "/personal-site/static/media/fikrim-var-7.96d02e067d20381b40c0.png",
     "static/media/hospital-otomation-7.png": "/personal-site/static/media/hospital-otomation-7.276d802634ace885aac6.png",
+    "static/media/siy.png": "/personal-site/static/media/siy.16f7b729cd8add0ce9b1.png",
     "static/media/fikrim-var.png": "/personal-site/static/media/fikrim-var.75df0ec4aa78f86b260e.png",
     "static/media/fikrim-var-5.png": "/personal-site/static/media/fikrim-var-5.ca313de9df23967814b4.png",
     "static/media/hospital-otomation-4.png": "/personal-site/static/media/hospital-otomation-4.3b8d90e115da047e0d33.png",
@@ -47,10 +50,10 @@
     "static/media/library-otomation-2.png": "/personal-site/static/media/library-otomation-2.7872f0baf09593bab289.png",
     "index.html": "/personal-site/index.html",
     "main.3a7b1532.css.map": "/personal-site/static/css/main.3a7b1532.css.map",
-    "main.0f8394fa.js.map": "/personal-site/static/js/main.0f8394fa.js.map"
+    "main.01102d7a.js.map": "/personal-site/static/js/main.01102d7a.js.map"
   },
   "entrypoints": [
     "static/css/main.3a7b1532.css",
-    "static/js/main.0f8394fa.js"
+    "static/js/main.01102d7a.js"
   ]
 }
