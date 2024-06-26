@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal-site/static/css/main.3a7b1532.css",
-    "main.js": "/personal-site/static/js/main.01102d7a.js",
+    "main.js": "/personal-site/static/js/main.80685daa.js",
     "static/media/aivirtualmouse.png": "/personal-site/static/media/aivirtualmouse.e4cb1333c2aafac1f332.png",
     "static/media/fruit-ninja.png": "/personal-site/static/media/fruit-ninja.c591e9cf5e8868261d87.png",
     "static/media/hospital-otomation-2.png": "/personal-site/static/media/hospital-otomation-2.cae5ad0980f6df48ca4e.png",
@@ -28,17 +28,22 @@
     "static/media/fikrim-var-3.png": "/personal-site/static/media/fikrim-var-3.ca45cdfc86f39cd38bfc.png",
     "static/media/fikrim-var-4.png": "/personal-site/static/media/fikrim-var-4.cdcffd2e033ac62a02ef.png",
     "static/media/hospital-otomation-3.png": "/personal-site/static/media/hospital-otomation-3.afb5c51dcd909b3fdc73.png",
+    "static/media/oys7.png": "/personal-site/static/media/oys7.c994d5a54a68cfed59bd.png",
     "static/media/hospital-otomation-6.png": "/personal-site/static/media/hospital-otomation-6.9b183e3afe372e583f81.png",
+    "static/media/oys10.png": "/personal-site/static/media/oys10.65b18edef9a8d5c1bde0.png",
     "static/media/hospital-otomation-8.png": "/personal-site/static/media/hospital-otomation-8.a2988f29a3860535eeb4.png",
     "static/media/oys1.png": "/personal-site/static/media/oys1.e6f3249d2c1bbb6b9595.png",
     "static/media/profile.jpg": "/personal-site/static/media/profile.37c662f24bcb68d41daf.jpg",
     "static/media/hospital-otomation-5.png": "/personal-site/static/media/hospital-otomation-5.54ee2fc43001ebb14174.png",
     "static/media/hospital-otomation.png": "/personal-site/static/media/hospital-otomation.54ee2fc43001ebb14174.png",
     "static/media/hospital-otomation-9.png": "/personal-site/static/media/hospital-otomation-9.077bc1e6addaf844a986.png",
+    "static/media/oys9.png": "/personal-site/static/media/oys9.a534a413cfc5f115b078.png",
+    "static/media/OYS8.png": "/personal-site/static/media/OYS8.9e88103f93fa631569fc.png",
     "static/media/fikrim-var-8.png": "/personal-site/static/media/fikrim-var-8.ce06786f4df25a12ddec.png",
+    "static/media/oys6.png": "/personal-site/static/media/oys6.e922d23bef8644de16ff.png",
     "static/media/fikrim-var-9.png": "/personal-site/static/media/fikrim-var-9.8c387487b486575083c9.png",
+    "static/media/oys11.png": "/personal-site/static/media/oys11.ea076fbb68567a090af5.png",
     "static/media/fikrim-var-6.png": "/personal-site/static/media/fikrim-var-6.55e97e4734c19831154d.png",
-    "static/media/oys3.png": "/personal-site/static/media/oys3.2845d06d6d502be4d5a9.png",
     "static/media/library-otomation.png": "/personal-site/static/media/library-otomation.795948bf41c4cac03dee.png",
     "static/media/oys2.png": "/personal-site/static/media/oys2.49fdf19b640de345b17a.png",
     "static/media/datatable.png": "/personal-site/static/media/datatable.dfed6f7432a6d90881dc.png",
@@ -50,10 +55,10 @@
     "static/media/library-otomation-2.png": "/personal-site/static/media/library-otomation-2.7872f0baf09593bab289.png",
     "index.html": "/personal-site/index.html",
     "main.3a7b1532.css.map": "/personal-site/static/css/main.3a7b1532.css.map",
-    "main.01102d7a.js.map": "/personal-site/static/js/main.01102d7a.js.map"
+    "main.80685daa.js.map": "/personal-site/static/js/main.80685daa.js.map"
   },
   "entrypoints": [
     "static/css/main.3a7b1532.css",
-    "static/js/main.01102d7a.js"
+    "static/js/main.80685daa.js"
   ]
 }
