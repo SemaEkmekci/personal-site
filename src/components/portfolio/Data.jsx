@@ -35,18 +35,59 @@ import Library5 from "../../assets/library-otomation-5.png"
 import aimouse from "../../assets/aivirtualmouse.png"
 import oys from "../../assets/oys1.png"
 import oys2 from "../../assets/oys2.png"
-import oys3 from "../../assets/oys3.png"
+// import oys3 from "../../assets/oys5.png"
 import oys4 from "../../assets/oys4.png"
+import oys5 from "../../assets/oys6.png"
+import oys6 from "../../assets/oys7.png"
+import oys7 from "../../assets/OYS8.png"
+import oys8 from "../../assets/oys9.png"
+import oys9 from "../../assets/oys10.png"
+import oys10 from "../../assets/oys11.png"
 import isyeri_oe from "../../assets/isyeri_oe.png"
+import siy from "../../assets/siy.png"
+import siy2 from "../../assets/siy2.png"
+import siy3 from "../../assets/siy3.png"
+import kismi1 from "../../assets/kismi1.png"
+import kismi2 from "../../assets/kısmi2.png"
+import kismi3 from "../../assets/kısmi3.png"
+import kismi4 from "../../assets/kismi4.png"
+import kismi5 from "../../assets/kısmi5.png"
+import kismi6 from "../../assets/kısmi6.png"
+import kismi7 from "../../assets/kısmi7.png"
+
+
+
+
 
 const Data =[
     {
         id:1,
-        img: [isyeri_oe],
-        title: "NEÜ OE İşyeri Ortak Eğitim Sayfası",
+        img: [kismi1, kismi2, kismi3, kismi4, kismi5, kismi6, kismi7],
+        title: "NEÜ Kısmi",
         details: [{
             icon: "fa-regular fa-file-code",
-            title: "NEÜ Ortak Eğitim İşyeri Bilgi Bankası Sayfası",
+            title: "NEÜ Kısmi Zamanlı Öğrenci ve Yemek Bursu Başvuru Sistemi: ",
+            desc: "Ünversite bünyesnde kısmi zamanlı olarak çalışmak isteyen öğrenclerin ve yemek bursu başvurusu yapmak isteyenlern başvuru süreçlerin dijtal ortamda gerçekleştirebilmeler için geliştirilmiş bir platformdur. Proje şu anda geliştirilme aşamasındadır ve yakın zamanda kullanıma sunulacaktır.",
+        },
+        {
+            icon: "fa-solid fa-code",
+            title: "Language: ",
+            desc: "Angular.js - .NET - MSSQL",
+        },
+        {
+            icon: "fa-brands fa-github",
+            title: "Video Link: ",
+            link: "https://drive.google.com/file/d/1OtI95cp3x5dL5bfwRUHVLVmvKDzjgxNI/view?usp=sharing",
+        }
+    ]
+    },
+    {
+        id:1,
+        img: [isyeri_oe],
+        title: "NEÜ OE İşyeri Bilgi Bankası Sayfası",
+        details: [{
+            icon: "fa-regular fa-file-code",
+            title: "NEÜ Ortak Eğitim İşyeri Bilgi Bankası Sayfası: ",
             desc: "Necmettin Erbakan Üniversitesi Mühendislik Fakültesi'nin ortak eğitim programı kapsamında anlaşmalı firmaların yer aldığı ve öğrencilere bilgi sağladığı bir web sayfasıdır. Şehre ve bölüme göre filtreleme ve arama seçenekleri sunar.",
         },
         {
@@ -63,7 +104,7 @@ const Data =[
     },
     {
         id:1,
-        img: [oys, oys2, oys3, oys4],
+        img: [oys, oys2, oys4, oys5, oys6, oys7, oys8, oys9, oys10],
         title: "Öğrenci Yoklama Sistemi",
         details: [{
             icon: "fa-regular fa-file-code",
@@ -79,6 +120,27 @@ const Data =[
             icon: "fa-brands fa-github",
             title: "Source Code: ",
             link: "https://github.com/SemaEkmekci/Ogrenci_Yoklama_Sistemi",
+        }
+    ]
+    },
+    {
+        id:1,
+        img: [siy3, siy, siy2],
+        title: "Teknofest 2024-Sürü İHA Yarışması",
+        details: [{
+            icon: "fa-regular fa-file-code",
+            title: "Teknofest 2024 Sürü İHA Yarışması: ",
+            desc: "NEÜ KAPSÜL AIGENZ Takımı olarak geliştirdiğimiz İHA'ların sürü halinde senkronize bir şekilde belirli görevleri yerine getirmesini sağladık.",
+        },
+        {
+            icon: "fa-solid fa-code",
+            title: "Language: ",
+            desc: "Gazebo - Ardupilot - Python - Linux",
+        },
+        {
+            icon: "fa-brands fa-github",
+            title: "Video Link: ",
+            link: "https://www.youtube.com/watch?v=Zm_bB5C99lA",
         }
     ]
     },
@@ -120,7 +182,7 @@ const Data =[
         },
         {
             icon: "fa-brands fa-github",
-            title: "Video: ",
+            title: "Video Link: ",
             link: "https://drive.google.com/file/d/1MdFOGAf_j6v-B1R-ubwp7y4eRy6GfRew/view?usp=sharing",
         }
     ]

@@ -27,26 +27,34 @@ const Data =[
         id:4,
         category: "experience",
         icon: "fa-solid fa-briefcase",
+        year: "2024 Haziran - 2024 Eylül",
+        title: "Bilgisayar Müh. Stajyeri",
+        desc : "NEÜ - Sağlık, Kültür ve Spor"
+    },
+    {
+        id:5,
+        category: "experience",
+        icon: "fa-solid fa-briefcase",
         year: "2024 Nisan - 2024 Haziran",
         title: "Yapay Zeka Eğitmeni",
         desc : "T3 Vakfı - Deneyap Türkiye - Eğitmen"
     },
     {
-        id:5,
+        id:6,
         category: "experience",
         icon: "fa-solid fa-briefcase",
         year: "2023 Şubat - 2023 Ağustos",
         title: "Veri Bilimi - Web Programlama",
         desc : "Konya Kapsül Teknoloji Platformu - Gönüllü"
     },
-    {
-        id:6,
-        category: "experience",
-        icon: "fa-solid fa-briefcase",
-        year: "2019 Eylül - 2020 Mart",
-        title: "Üroloji ve Dahiliye Servisi",
-        desc : "Konya Numune Hastanesi - Stajyer"
-    }
+    // {
+    //     id:7,
+    //     category: "experience",
+    //     icon: "fa-solid fa-briefcase",
+    //     year: "2019 Eylül - 2020 Mart",
+    //     title: "Üroloji ve Dahiliye Servisi",
+    //     desc : "Konya Numune Hastanesi - Stajyer"
+    // }
     
 ]
 export default Data;
