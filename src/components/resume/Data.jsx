@@ -27,6 +27,14 @@ const Data =[
         id:4,
         category: "experience",
         icon: "fa-solid fa-briefcase",
+        year: "2024 Eylül - Halen",
+        title: "Bilgisayar Müh. Stajyeri",
+        desc : "HAVELSAN"
+    },
+    {
+        id:4,
+        category: "experience",
+        icon: "fa-solid fa-briefcase",
         year: "2024 Haziran - 2024 Eylül",
         title: "Bilgisayar Müh. Stajyeri",
         desc : "NEÜ - Sağlık, Kültür ve Spor"
