@@ -27,12 +27,20 @@ const Data =[
         id:4,
         category: "experience",
         icon: "fa-solid fa-briefcase",
-        year: "2024 Eylül - Halen",
+        year: "2025 Mart - Halen",
+        title: "Aday Mühendis",
+        desc : "HAVELSAN"
+    },
+    {
+        id:5,
+        category: "experience",
+        icon: "fa-solid fa-briefcase",
+        year: "2024 Eylül - 2025 Mart",
         title: "Bilgisayar Müh. Stajyeri",
         desc : "HAVELSAN"
     },
     {
-        id:4,
+        id:6,
         category: "experience",
         icon: "fa-solid fa-briefcase",
         year: "2024 Haziran - 2024 Eylül",
@@ -40,7 +48,7 @@ const Data =[
         desc : "NEÜ - Sağlık, Kültür ve Spor"
     },
     {
-        id:5,
+        id:7,
         category: "experience",
         icon: "fa-solid fa-briefcase",
         year: "2024 Nisan - 2024 Haziran",
@@ -48,7 +56,7 @@ const Data =[
         desc : "T3 Vakfı - Deneyap Türkiye - Eğitmen"
     },
     {
-        id:6,
+        id:8,
         category: "experience",
         icon: "fa-solid fa-briefcase",
         year: "2023 Şubat - 2023 Ağustos",
