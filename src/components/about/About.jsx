@@ -24,12 +24,7 @@ const About = () => {
           <img src={Avatar} alt="" className="about-img" />
           <div className="about-info grid">
             <p className="about-description">
-              Merhaba, ben Sema Nur Ekmekci. Necmettin Erbakan Üniversitesi
-              Bilgisayar Mühendisliği 4.sınıf öğrencisiyim. Kendimi yapay zeka
-              alanında geliştirmeye çalışıyorum. "NEÜ Kapsül AIgenZ" takımının
-              bir üyesiyim. Takımımızla birlikte yapay zeka alanında çalışmalar
-              yapıyoruz. Aynı zamanda web geliştirmeye ilgiliyim. Amatör olarak
-              gitar ve bağlama çalıyorum.
+              Merhaba, ben Sema Nur Ekmekci. Bilgisayar Mühendisiyim. Yapay zeka ve yazılım geliştirme alanlarında çalışmalar yürütüyor, bu alanlarda teknik yetkinliğimi sürekli geliştirmeye odaklanıyorum. Özellikle yapay zeka tabanlı uygulamalar ve web teknolojileri üzerine projeler geliştiriyorum.
             </p>
             <a
               href="https://drive.google.com/file/d/1HG8dxrY6mL1VrqHpj7O67_1s9E_LDiFJ/view?usp=sharing"
