@@ -5,25 +5,15 @@ import "./portfolio.css"
 
 const Portfolio = () => {
   return (
-    <div>
-      <section className='portfolio section'>
-        <h2 className='section-title'>
-          <span name="portfoy">
-              Portföy
-          </span>
-        <div className="portfolio-container grid">
-          {Data.map((item) => {
-            return <PortfolioItem key={item.id} {...item}/>
-
-          })}
-
-
-        </div>
-        </h2>
-      </section>
-
-    </div>
-  )
+    <section className="portfolio section" id="portfoy">
+      <h2 className="section-title">Portföy</h2>
+      <div className="portfolio-container grid">
+        {Data.map((item) => (
+          <PortfolioItem key={item.id} {...item} />
+        ))}
+      </div>
+    </section>
+  );
 }
 
 export default Portfolio

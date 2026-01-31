@@ -87,6 +87,21 @@ const Sidebar = ({isSidebar, setisSidebar}) => {;
                 </Link>
             
             </li>
+            <li>
+                <Link
+                  activeClass="active"
+                  to="makaleler"
+                  spy={true}
+                  smooth={true}
+                  offset={-10}
+                  duration={500}
+                >
+                  <div className="iocn-link">
+                    <i className="bx bx-file-blank"></i>
+                    <span className="link_name">Makaleler</span>
+                  </div>
+                </Link>
+            </li>
            
             <li>
            
@@ -114,7 +129,7 @@ const Sidebar = ({isSidebar, setisSidebar}) => {;
                 </div>
                 <div className="name-job">
                   <div className="profile_name">Sema Nur EKMEKCİ</div>
-                  <div className="job">Bilgisayar Mühendisliği Öğrencisi</div>
+                  <div className="job">Bilgisayar Mühendisi</div>
                 </div>
               </div>
             </li>

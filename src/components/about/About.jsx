@@ -32,7 +32,7 @@ const About = () => {
               rel="noreferrer noopener"
               className="a-btn"
             >
-              Download CV
+              Özgeçmişi Görüntüle
             </a>
           </div>
         </div>
