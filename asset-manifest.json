@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal-site/static/css/main.0fa837e0.css",
-    "main.js": "/personal-site/static/js/main.f65e9ac1.js",
+    "main.css": "/personal-site/static/css/main.0c43d109.css",
+    "main.js": "/personal-site/static/js/main.a5c8fa52.js",
     "static/media/aivirtualmouse.png": "/personal-site/static/media/aivirtualmouse.e4cb1333c2aafac1f332.png",
     "static/media/fruit-ninja.png": "/personal-site/static/media/fruit-ninja.c591e9cf5e8868261d87.png",
     "static/media/hospital-otomation-2.png": "/personal-site/static/media/hospital-otomation-2.cae5ad0980f6df48ca4e.png",
@@ -61,11 +61,11 @@
     "static/media/library-otomation-5.png": "/personal-site/static/media/library-otomation-5.9cb44a843d0b3a20406f.png",
     "static/media/library-otomation-2.png": "/personal-site/static/media/library-otomation-2.7872f0baf09593bab289.png",
     "index.html": "/personal-site/index.html",
-    "main.0fa837e0.css.map": "/personal-site/static/css/main.0fa837e0.css.map",
-    "main.f65e9ac1.js.map": "/personal-site/static/js/main.f65e9ac1.js.map"
+    "main.0c43d109.css.map": "/personal-site/static/css/main.0c43d109.css.map",
+    "main.a5c8fa52.js.map": "/personal-site/static/js/main.a5c8fa52.js.map"
   },
   "entrypoints": [
-    "static/css/main.0fa837e0.css",
-    "static/js/main.f65e9ac1.js"
+    "static/css/main.0c43d109.css",
+    "static/js/main.a5c8fa52.js"
   ]
 }
