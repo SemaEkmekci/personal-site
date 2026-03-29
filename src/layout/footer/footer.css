@@ -18,13 +18,13 @@
     position: relative;
   }
   
-  footer{
+  /* footer{
       padding-top: 30px;
       margin-bottom: 60px;
-  }
+  } */
   .container{
       display: flex;
-      margin-left: 30%;
+      /* margin-left: 30%; */
   }
   .footer-content{
       width: 33.3%;

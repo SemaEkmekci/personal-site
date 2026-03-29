@@ -39,41 +39,16 @@ const PortfolioItem = ({ img, title, details }) => {
       </div>
 
       <Modal
-        size="lg"
+        size="xl"
         isOpen={modal}
         toggle={() => setModal(!modal)}
         zIndex={0}
+        centered
       >
         <ModalHeader toggle={() => setModal(!modal)}>{title}</ModalHeader>
         <ModalBody>
-          <Row>
-            <Col lg={12}>
-              <div>
-                {details.map(({ icon, title, desc, link }, index) => (
-                  <li className="modal-item" key={index}>
-                    <div>
-                      <span className="item-title">{title}</span>
-                      <span className="item-details">{desc}</span>
-                      <span className="item-details">
-                        <a
-                          href={link}
-                          target="_blank"
-                          rel="noreferrer noopener"
-                        >
-                          {link}
-                        </a>
-                      </span>
-                    </div>
-                  </li>
-                ))}
-              </div>
-            </Col>
-            {/* <Col lg={12}>
-              <img src={img} alt="" className='modal-img' />
-              <br />
-           </Col> */}
-
-            <Col lg={12}>
+          <Row className="g-3">
+            <Col lg={5}>
               <div className="slide-container">
                 <Slide autoplay={true} duration={2000}>
                   {img.map((image, index) => (
@@ -86,6 +61,21 @@ const PortfolioItem = ({ img, title, details }) => {
                   ))}
                 </Slide>
               </div>
+            </Col>
+            <Col lg={7}>
+              <ul className="modal-details-list">
+                {details.map(({ title: detailTitle, desc, link }, index) => (
+                  <li className="modal-detail-item" key={index}>
+                    {detailTitle && <span className="item-title">{detailTitle}</span>}
+                    {desc && <span className="item-details">{desc}</span>}
+                    {link && (
+                      <a href={link} target="_blank" rel="noreferrer noopener" className="item-link">
+                        {link}
+                      </a>
+                    )}
+                  </li>
+                ))}
+              </ul>
             </Col>
           </Row>
         </ModalBody>
