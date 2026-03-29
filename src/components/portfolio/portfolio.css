@@ -154,13 +154,26 @@
 
 .modal-content {
   margin-top: 1rem;
+  background-color: var(--surface);
+  color: var(--letterColor);
+  border-color: var(--border);
+}
+
+.modal-header,
+.modal-body {
+  background-color: var(--surface);
+  color: var(--letterColor);
+}
+
+.modal-content a {
+  color: var(--accent);
+}
+
+.modal-content a:hover {
+  color: var(--accent-hover);
 }
 
 @media (max-width: 768px) {
-  .portfolio.section {
-    margin-right: 20px;
-  }
-
   .portfolio-container {
     grid-template-columns: repeat(2, 1fr);
   }

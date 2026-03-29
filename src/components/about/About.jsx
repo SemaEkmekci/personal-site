@@ -27,7 +27,7 @@ const About = () => {
               Merhaba, ben Sema Nur Ekmekci. Bilgisayar Mühendisiyim. Yapay zeka ve yazılım geliştirme alanlarında çalışmalar yürütüyor, bu alanlarda teknik yetkinliğimi sürekli geliştirmeye odaklanıyorum. Özellikle yapay zeka tabanlı uygulamalar ve web teknolojileri üzerine projeler geliştiriyorum.
             </p>
             <a
-              href="https://drive.google.com/file/d/1HG8dxrY6mL1VrqHpj7O67_1s9E_LDiFJ/view?usp=sharing"
+              href="https://drive.google.com/file/d/1JpOvSOMx8LrfSZLl6LKWkgJZN0y_6jBp/view?usp=sharing"
               target="_blank"
               rel="noreferrer noopener"
               className="a-btn"
