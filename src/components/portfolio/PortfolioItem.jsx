@@ -42,7 +42,7 @@ const PortfolioItem = ({ img, title, details }) => {
         size="xl"
         isOpen={modal}
         toggle={() => setModal(!modal)}
-        zIndex={0}
+        zIndex={200}
         centered
       >
         <ModalHeader toggle={() => setModal(!modal)}>{title}</ModalHeader>
